@@ -23,7 +23,7 @@ const GoalsList = ({ goals, dispatch }) => {
 
 function mapStateToProps(state) {
 	return {
-		goals: state.goals,
+		goals: state.goalsReducer.goals,
 	};
 }
 
